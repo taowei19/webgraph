@@ -8,10 +8,15 @@ Download and use
 
 2.新建一个文件名为lib，把除了uk-2007-05@100000开头的两个文件其他文件都放入lib。
   能成功运行的目录格式为：
+  
     -uk-2007-05@100000.graph
+    
     -uk-2007-05@100000.properties
+    
     -lib
+    
       -checker-qual-3.5.0.jar
+      
       -.......
       
  3.在terminal中找到存储文件的正确目录，运行代码：java -cp "lib/*" it.unimi.dsi.webgraph.ArcListASCIIGraph uk-2007-05@100000 uk200705.txt
