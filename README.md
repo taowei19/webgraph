@@ -1,0 +1,22 @@
+# webgraph
+Download and use
+关于使用webgraph数据集的方法：
+
+关于github使用方法:
+1.下载所有文件。其中uk-2007-05@100000.graph和uk-2007-05@100000.properties是从webgraph网站上下载来的数据集，您下载后可以用这两个数据集验证是否程序能正常解压graph文件
+2.新建一个文件名为lib，把除了uk-2007-05@100000开头的两个文件其他文件都放入lib。
+  能成功运行的目录格式为：
+    -uk-2007-05@100000.graph
+    -uk-2007-05@100000.properties
+    -lib
+      -checker-qual-3.5.0.jar
+      -.......
+ 3.在terminal中找到存储文件的目录，运行代码：java -cp "lib/*" it.unimi.dsi.webgraph.ArcListASCIIGraph uk-2007-05@100000 uk200705.txt
+ 
+  图文件会被转化成txt格式供后续使用，官方网站以及代码来源：https://webgraph.di.unimi.it/
+  如果有自己的图文件，代替代码中的uk-2007-05@100000。
+  
+  关于google drive：
+  下载压缩包并解压文件，已经是正确的目录格式，直接执行上文提到的第三步即可。
+  
+  有问题请联系taowe@umich.edu
