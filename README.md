@@ -22,9 +22,11 @@ Download and use
  3.在terminal中找到存储文件的正确目录，运行代码：java -cp "lib/*" it.unimi.dsi.webgraph.ArcListASCIIGraph uk-2007-05@100000 uk200705.txt
  
   图文件会被转化成txt格式供后续使用，官方网站以及代码来源：https://webgraph.di.unimi.it/
-  如果有自己的图文件，代替代码中的uk-2007-05@100000。
+  如果有自己的图文件，代替代码中的uk-2007-05@100000即可。
   
   关于google drive：
   下载压缩包并解压文件，已经是正确的目录格式，直接执行上文提到的第三步即可。
+  https://drive.google.com/file/d/1VMq5KvTdM44pObsbRZzkcCvjCcjgr09W/view?usp=sharing
+
   
   有问题请联系taowe@umich.edu
